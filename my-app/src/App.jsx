@@ -6,6 +6,7 @@ import Likes from './components/Likes'
 import Comments from './components/Comments'
 import Navbar from './components/navbar'
 import Subscribers from './components/Subscribers'
+import AddUser from './components/AddUser'
 
 function App() {
   // const value = useSelector((state) => state.counter.value)
@@ -29,6 +30,7 @@ function App() {
         </div>
         <Subscribers/>
       </div>
+      <AddUser/>
       <div>
         
       </div>
